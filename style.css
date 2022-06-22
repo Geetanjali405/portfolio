@@ -1,0 +1,214 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  header{
+    background-color: #B667F1;
+  }
+  
+  #navbar{
+    background: rgba(250, 249, 246, 0.4);
+    padding: 4px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .links{
+    display: flex;
+    gap: 1px;
+  }
+  
+  .link{
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .link:hover{
+    background: #8A39E1;
+  }
+  .hero_text{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .header{
+    width: 100%;
+    padding: 20px;
+  }
+  .hero_image{
+    width: 100%;
+  }
+  
+  main{
+    width: 100%;
+    background: #EA99D5;
+    text-align: center;
+    padding-top: 20px;
+    color: #9A0680;
+  }
+  
+  .info{
+    margin: 10px;
+    padding: 30px;
+    background: rgba(250, 249, 246, 0.4);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  }
+  .cards{
+    padding: 10px;
+    margin: auto;
+  }
+  .card{
+    height: 340px;
+    margin: 15px;
+    background: white;
+    box-shadow:  0px 5px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 6px;
+  }
+  .Pimg{
+    width: 100%;
+    height: 200px;
+    border-radius: 6px 6px 0px 0px;
+  }
+  .Ptext{
+    padding:15px;
+  }
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  label{
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  input{
+    border-radius: 7px;
+    height: 2rem;
+    background: #DFD3C3;
+  }
+  
+  textarea{
+    border-radius: 7px;
+    background: #DFD3C3;
+  }
+  
+  #send{
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    background: #A68DAD;
+    border: none;
+  }
+  
+  footer{
+    padding: 20px;
+    width: 100%;
+    background: #160040;
+    text-align: center;
+  }
+  
+  .handles{
+    padding: 8px;
+  }
+  
+  .icon{
+    width: 30px;
+    height: 30px;
+    margin: 20px;
+    border-radius: 50%;
+  }
+  @media screen and (min-width: 600px){
+    .card{
+      height: 350px;
+      width: 300px;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (min-width: 768px){
+    body{
+      font-size: 25px;
+    }
+    #navbar{
+      padding: 10px 40px;
+      font-size: 20px;
+    }
+    .links{
+      gap: 20px;
+    }
+    .link{
+      gap: 20px;
+      padding: 10px;
+    }
+    .hero_image{
+      width: 70%;
+      height: 80%;
+    }
+    .header{
+      padding: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+    
+    main{
+      padding: 50px;
+    }
+   
+    .info{
+      font-size: 20px;
+      line-height: 40px;
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    .projects{
+      margin-top: 30px;
+    }
+    .cards{
+      display: flex;
+      justify-content: space-around;
+    }
+    .card{
+      height: 400px;
+      width: 400px;
+      margin: 20px;
+    }
+    .Ptext p{
+      font-size: 15px;
+    }
+    .Ptext h2{
+      font-size: 25px;
+    }
+    input{
+      width: 40%;
+      height: 50px;
+      margin: auto;
+    }
+    textarea{
+      width: 40%;
+      height: 50px;
+      margin: auto;
+    }
+    #send{
+      width: 90px;
+    }
+    footer{
+      font-size: 20px;
+    }
+    .end{
+      font-size: 15px;
+    }
+  }
