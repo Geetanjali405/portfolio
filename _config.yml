@@ -1,3 +1,0 @@
-theme: jekyll-theme-cayman
-credentials: username: Geetanjali405
-password: ${{ secrets.docker_hub_password}}
